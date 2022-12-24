@@ -1,0 +1,33 @@
+1 - Configurando o usuário git:
+git config --global user.name "xx xx"
+git config --global user.email "xxxx@gmail.com"
+
+2 - Clonando um repositório existente no GithuB:
+Git clone https://github.com/LizandraMorais/Aprendendo-git.git
+
+3 - Visualizando todas as configurações git:
+git config --list
+
+
+3.5 Criando um arquivo .gitignore basta digitar
+echo "nome_do_arquivo.formato" >> .gitignore
+
+4 - Status arquivo git:
+** Um arquivo pode estar untracked or tracked (não rastreado ou rastreado)
+Não rastreado, é o primeiro status de um arquivo após criado no repositório ou clonado de um repositório
+externo.
+
+** Apenas um arquivo rastreado pode apresentar status unmodified (não modificado) e modified (modificado)
+
+** Para que um arquivo não rastreado pelo git passe a ser rastreado basta digitar 
+no cmd git add nome_do_arquivo.formato
+
+
+5  - Comparando as informações que estão no diretório com o qeu está na área de alteração git basta digitar
+git diff
+
+Caso não apareça basta digitar echo '# test line' >> nome_do_arquivo.formato e depois digitar git diff
+
+
+
+
