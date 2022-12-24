@@ -29,5 +29,13 @@ git diff
 Caso não apareça basta digitar echo '# test line' >> nome_do_arquivo.formato e depois digitar git diff
 
 
+6 - Removendo arquivos do ambiente de preparação e do ambiente do repositório
 
+Após o arquivo ser preparado com o git add nome_do_arquivo.formato você pode retornar ao passo 
+anterior de apenas rastreamento através do 
+git restore --stage nome_do_arquivo.txt oui
+git rm nome_do_arquivo.txt --cached
 
+Para excluir do ambiente do repositório pelo CMD git bash basta digitar rm nome_do_arquivo.formato
+
+ 
